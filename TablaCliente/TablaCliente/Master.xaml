@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TablaCliente.Master"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#191919" Padding="0, 30, 0, 0">
+            <Button Text="Crear Cliente" x:Name="btnCrear" TextColor="#A38633" Margin="40, 50, 40, 10" BackgroundColor="#393939" FontAttributes="Bold" Clicked="btnCrear_Clicked" />
+            <Button Text="Ver Cliente" x:Name="btnVer" TextColor="#A38633" Margin="40, 10, 40, 10" BackgroundColor="#393939" FontAttributes="Bold" Clicked="btnVer_Clicked" />
+            <Button Text="Actualizar Cliente" x:Name="btnActualizar" TextColor="#A38633" Margin="40, 10, 40, 10" BackgroundColor="#393939" FontAttributes="Bold" Clicked="btnActualizar_Clicked" />
+            <Button Text="Eliminar Cliente" x:Name="btnEliminar" TextColor="#A38633" Margin="40, 10, 40, 10" BackgroundColor="#393939" FontAttributes="Bold" Clicked="btnEliminar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
